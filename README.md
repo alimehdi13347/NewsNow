@@ -24,16 +24,16 @@
 ## 🖼️ Screenshots
 
 ### 🧠 Technology News  
-![Technology](src/assets/technology.jpeg)
+![Technology](src/assets/technology.png)
 
 ### 🏥 Health News  
-![Health](src/assets/health.jpeg)
+![Health](src/assets/health.png)
 
 ### ⚽ Sports News  
-![Sports](src/assets/sports.jpeg)
+![Sports](src/assets/sports.png)
 
 ### 💼 Business News  
-![Business](src/assets/business.jpeg)
+![Business](src/assets/business.png)
 
 
 ## 🛠️ Getting Started
