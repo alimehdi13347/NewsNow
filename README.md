@@ -1,12 +1,47 @@
-# React + Vite
+# 📰 NewsNow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**NewsNow** is a responsive React-based news application that fetches live articles by category using the [GNews API](https://gnews.io/). Built with Bootstrap and direct `fetch()` integration, it delivers fast, clean, and mobile-friendly news browsing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧭 Browse news by category: **Technology**, **Health**, **Sports**, **Business**
+- 📱 Responsive layout using Bootstrap grid and cards
+- ⚡ Direct API integration with GNews (no backend required)
+- ⚠️ Graceful error handling and fallback UI
+- 🔄 Dynamic rendering with reusable components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+| Frontend | Styling   | API & Data |
+|----------|-----------|------------|
+| React    | Bootstrap | GNews API via `fetch()` |
+
+---
+## 🖼️ Screenshots
+
+### 🧠 Technology News  
+![Technology](src/assets/technology.jpeg)
+
+### 🏥 Health News  
+![Health](src/assets/health.jpeg)
+
+### ⚽ Sports News  
+![Sports](src/assets/sports.jpeg)
+
+### 💼 Business News  
+![Business](src/assets/business.jpeg)
+
+
+## 🛠️ Getting Started
+
+Clone the repo and run locally:
+
+```bash
+git clone https://github.com/alimehdi13347/NewsNow.git
+cd NewsNow
+npm install
+npm start
